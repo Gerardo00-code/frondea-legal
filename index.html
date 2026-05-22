@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Frondea — Informativa sulla Privacy</title>
+<style>
+  :root { --emerald:#0E9E6E; --forest:#073B2A; --bg:#F3FAF6; --ink:#1d3b2e; --muted:#5A7D6C; --line:#D7ECE1; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.6 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; color:var(--ink); background:var(--bg); }
+  header { background:linear-gradient(135deg,#16D690,var(--forest)); color:#fff; padding:48px 24px; }
+  .wrap { max-width:760px; margin:0 auto; padding:0 24px; }
+  header .wrap { padding:0; }
+  h1 { margin:0; font-size:28px; }
+  header p { margin:6px 0 0; opacity:.9; }
+  main { padding:32px 0 64px; }
+  h2 { color:var(--emerald); font-size:19px; margin-top:32px; }
+  table { width:100%; border-collapse:collapse; margin:12px 0; font-size:14px; }
+  th,td { text-align:left; padding:8px 10px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { color:var(--forest); }
+  .note { background:#E7F7EE; border:1px solid var(--line); border-radius:10px; padding:12px 14px; font-size:14px; color:var(--muted); }
+  code { background:#E7F7EE; padding:1px 5px; border-radius:5px; }
+  footer { color:var(--muted); font-size:13px; padding:24px 0 48px; }
+</style>
+</head>
+<body>
+<header><div class="wrap"><h1>🌿 Frondea — Informativa sulla Privacy</h1><p>Ultimo aggiornamento: 22 maggio 2026</p></div></header>
+<main class="wrap">
+  <p class="note">I campi tra <code>[parentesi]</code> vanno completati dal titolare prima della pubblicazione e revisionati da un legale GDPR.</p>
+
+  <h2>1. Titolare del trattamento</h2>
+  <p>Titolare: <code>[RAGIONE SOCIALE]</code>, <code>[INDIRIZZO]</code>, P.IVA <code>[PIVA]</code>. Contatto privacy: <code>[EMAIL_PRIVACY]</code>.</p>
+
+  <h2>2. Dati che trattiamo</h2>
+  <table>
+    <tr><th>Dato</th><th>Quando</th><th>Finalità</th><th>Base giuridica</th></tr>
+    <tr><td>Foto della pianta</td><td>Quando avvii una scansione</td><td>Identificare la specie</td><td>Esecuzione del servizio (art. 6.1.b)</td></tr>
+    <tr><td>Identificativo anonimo del dispositivo</td><td>Sempre</td><td>Sicurezza, anti-abuso</td><td>Legittimo interesse (art. 6.1.f)</td></tr>
+    <tr><td>Email</td><td>Solo se crei un account</td><td>Accesso e sincronizzazione del diario</td><td>Esecuzione del servizio</td></tr>
+    <tr><td>Eventi di utilizzo anonimi</td><td>Solo con il tuo consenso</td><td>Analisi dell'uso</td><td>Consenso (art. 6.1.a)</td></tr>
+  </table>
+
+  <h2>3. Cosa NON trattiamo</h2>
+  <ul>
+    <li>Non leggiamo i metadati EXIF della foto (GPS incluso): rimossi sul dispositivo prima dell'invio.</li>
+    <li>Non vendiamo né cediamo i dati a inserzionisti.</li>
+    <li>Le scansioni non salvate nel diario non sono conservate in modo permanente.</li>
+  </ul>
+
+  <h2>4. Conservazione</h2>
+  <table>
+    <tr><th>Dato</th><th>Periodo</th></tr>
+    <tr><td>Foto del diario</td><td>Finché non la elimini o cancelli l'account</td></tr>
+    <tr><td>Cronologia identificazioni</td><td>Finché non cancelli l'account</td></tr>
+    <tr><td>Email + account</td><td>Account attivo + 30 giorni dopo la cancellazione</td></tr>
+    <tr><td>Eventi anonimi</td><td>24 mesi</td></tr>
+  </table>
+
+  <h2>5. A chi comunichiamo i dati</h2>
+  <p>Solo a sub-responsabili indispensabili, vincolati da DPA: <strong>Supabase</strong> (database/auth/storage), <strong>Pl@ntNet — CIRAD</strong> (riconoscimento; la foto è inviata solo all'avvio di una scansione), <strong>PostHog</strong> (analisi anonima, regione UE, solo col consenso).</p>
+
+  <h2>6. Cookie e tecnologie simili</h2>
+  <p>L'app non usa cookie di navigazione. Usa identificatori tecnici necessari (sessione di login, preferenze locali) e, <strong>solo con il tuo consenso</strong>, analisi anonima (PostHog). Puoi cambiare il consenso da <em>Impostazioni → Privacy</em>. Nessun cookie pubblicitario, nessuna profilazione marketing.</p>
+
+  <h2>7. I tuoi diritti</h2>
+  <p>Accesso, rettifica, cancellazione, limitazione, portabilità, opposizione e revoca del consenso. Esercitali da <em>Impostazioni → Elimina account</em> o scrivendo a <code>[EMAIL_PRIVACY]</code>; rispondiamo entro 30 giorni. Reclamo al Garante: gpdp.it.</p>
+
+  <h2>8. Trasferimenti extra-UE e sicurezza</h2>
+  <p>Eventuali trasferimenti fuori UE avvengono con Clausole Contrattuali Standard. Dati in transito protetti da TLS; database con Row Level Security (ogni utente accede solo alle proprie righe). Le chiavi dei provider restano sui server, mai nell'app.</p>
+
+  <h2>9. Contatti</h2>
+  <p><code>[EMAIL_PRIVACY]</code> — <code>[INDIRIZZO]</code>.</p>
+</main>
+<footer class="wrap">© 2026 Frondea. Documento educativo; Frondea non è un dispositivo medico.</footer>
+</body>
+</html>
